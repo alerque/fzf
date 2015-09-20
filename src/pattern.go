@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/junegunn/fzf/src/algo"
+	"github.com/alerque/fzf/src/algo"
 )
 
 // fuzzy

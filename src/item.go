@@ -3,7 +3,7 @@ package fzf
 import (
 	"math"
 
-	"github.com/junegunn/fzf/src/curses"
+	"github.com/alerque/fzf/src/curses"
 )
 
 // Offset holds two 32-bit integers denoting the offsets of a matched substring

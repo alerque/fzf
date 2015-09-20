@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/junegunn/fzf/src/algo"
+	"github.com/alerque/fzf/src/algo"
 )
 
 func TestParseTermsExtended(t *testing.T) {

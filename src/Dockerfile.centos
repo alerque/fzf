@@ -22,5 +22,5 @@ RUN cd $GOROOT/src && GOARCH=386 ./make.bash
 VOLUME /go
 
 # Default CMD
-CMD cd /go/src/github.com/junegunn/fzf/src && /bin/bash
+CMD cd /go/src/github.com/alerque/fzf/src && /bin/bash
 

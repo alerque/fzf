@@ -13,9 +13,9 @@ install:
 
 script: |
   export GOPATH=~/go
-  export FZF_BASE=$GOPATH/src/github.com/junegunn/fzf
+  export FZF_BASE=$GOPATH/src/github.com/alerque/fzf
 
-  mkdir -p $GOPATH/src/github.com/junegunn
+  mkdir -p $GOPATH/src/github.com/alerque
   ln -s $(pwd) $FZF_BASE
 
   cd $FZF_BASE/src && make test fzf/fzf-linux_amd64 install &&

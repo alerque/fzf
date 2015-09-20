@@ -31,7 +31,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/junegunn/fzf/src/util"
+	"github.com/alerque/fzf/src/util"
 )
 
 func initProcs() {

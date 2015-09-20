@@ -14,10 +14,10 @@ import (
 	"syscall"
 	"time"
 
-	C "github.com/junegunn/fzf/src/curses"
-	"github.com/junegunn/fzf/src/util"
+	C "github.com/alerque/fzf/src/curses"
+	"github.com/alerque/fzf/src/util"
 
-	"github.com/junegunn/go-runewidth"
+	"github.com/alerque/go-runewidth"
 )
 
 // Terminal represents terminal input/output

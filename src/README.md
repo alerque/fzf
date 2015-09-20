@@ -113,7 +113,7 @@ License
 
 [MIT](LICENSE)
 
-[install]: https://github.com/junegunn/fzf#installation
+[install]: https://github.com/alerque/fzf#installation
 [go]:      https://golang.org/
 [gil]:     http://en.wikipedia.org/wiki/Global_Interpreter_Lock
 [ncurses]: https://www.gnu.org/software/ncurses/

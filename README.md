@@ -3,7 +3,7 @@
 
 fzf is a general-purpose command-line fuzzy finder.
 
-![](https://raw.github.com/junegunn/i/master/fzf.gif)
+![](https://raw.github.com/alerque/i/master/fzf.gif)
 
 Pros
 ----
@@ -33,15 +33,15 @@ fzf project consists of the followings:
 You can [download fzf executable][bin] alone, but it's recommended that you
 install the extra stuff using the attached install script.
 
-[bin]: https://github.com/junegunn/fzf-bin/releases
+[bin]: https://github.com/alerque/fzf-bin/releases
 
 #### Using git (recommended)
 
 Clone this repository and run
-[install](https://github.com/junegunn/fzf/blob/master/install) script.
+[install](https://github.com/alerque/fzf/blob/master/install) script.
 
 ```sh
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+git clone --depth 1 https://github.com/alerque/fzf.git ~/.fzf
 ~/.fzf/install
 ```
 
@@ -64,7 +64,7 @@ Once you have cloned the repository, add the following line to your .vimrc.
 set rtp+=~/.fzf
 ```
 
-Or you can have [vim-plug](https://github.com/junegunn/vim-plug) manage fzf
+Or you can have [vim-plug](https://github.com/alerque/vim-plug) manage fzf
 (recommended):
 
 ```vim
@@ -139,7 +139,7 @@ Examples
 --------
 
 Many useful examples can be found on [the wiki
-page](https://github.com/junegunn/fzf/wiki/examples). Feel free to add your
+page](https://github.com/alerque/fzf/wiki/examples). Feel free to add your
 own as well.
 
 Key bindings for command line
@@ -256,7 +256,7 @@ Usage as Vim plugin
 -------------------
 
 This repository only enables basic integration with Vim. If you're looking for
-more, check out [fzf.vim](https://github.com/junegunn/fzf.vim) project.
+more, check out [fzf.vim](https://github.com/alerque/fzf.vim) project.
 
 (Note: To use fzf in GVim, an external terminal emulator is required.)
 
@@ -286,7 +286,7 @@ Note that the environment variables `FZF_DEFAULT_COMMAND` and
 `FZF_DEFAULT_OPTS` also apply here. Refer to [the wiki page][fzf-config] for
 customization.
 
-[fzf-config]: https://github.com/junegunn/fzf/wiki/Configuring-FZF-command-(vim)
+[fzf-config]: https://github.com/alerque/fzf/wiki/Configuring-FZF-command-(vim)
 
 #### `fzf#run([options])`
 
@@ -308,7 +308,7 @@ options.
 | `launcher`                 | funcref       | Function for generating `launcher` string (GVim only)            |
 
 Examples can be found on [the wiki
-page](https://github.com/junegunn/fzf/wiki/Examples-(vim)).
+page](https://github.com/alerque/fzf/wiki/Examples-(vim)).
 
 Tips
 ----
